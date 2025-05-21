@@ -29,7 +29,7 @@ mkdir -p build
 cd build
 
 echo "Downloading Notion installer..."
-curl --location https://www.notion.so/desktop/windows/download --output installer
+curl --location https://www.notion.so/desktop/windows-arm/download --output installer
 
 echo "Extracting app files..."
 7z e installer \$PLUGINSDIR/app-64.7z
