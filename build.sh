@@ -182,10 +182,15 @@ cat > package.json << EOF
       }
     ],
     "linux": {
-      "target": "AppImage",
       "category": "Office",
-      "arch": "arm64"
-    }
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": [
+            "arm-aarch64"
+          ]
+        }
+      ]
   }
 }
 EOF
