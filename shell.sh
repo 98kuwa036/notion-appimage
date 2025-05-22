@@ -1,6 +1,6 @@
 #!/bin/bash
 # Get dependency versions and Notion version from package.json
-cd app
+cd build/app
 echo "Reading dependency versions and app version..."
 
 # Try multiple approaches to find version
