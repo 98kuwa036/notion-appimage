@@ -140,7 +140,7 @@ echo "Rebuilding better-sqlite3..."
 cd package
 npm install
 echo "Running node-gyp rebuild..."
-npx node-gyp rebuild --target=$electron --arch=x64 --dist-url=https://electronjs.org/headers
+npx node-gyp rebuild --target=$electron --arch=x64 --dist-url=https://nodejs.org/dist
 
 echo "Copying built module..."
 cp build/Release/better_sqlite3.node ../app/node_modules/better-sqlite3/build/Release/
