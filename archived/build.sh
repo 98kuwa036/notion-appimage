@@ -5,7 +5,7 @@ mkdir -p build
 pushd build
 
 # Download the Notion installer
-curl --location https://www.notion.so/desktop/windows/download --output installer
+curl --location https://www.notion.so/desktop/windows-arm/download --output installer
 
 # Extract app-64.7z from the installer
 7z e installer \$PLUGINSDIR/app-64.7z
